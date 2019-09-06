@@ -1,0 +1,25 @@
+{
+    "name": "deniztezcan/laravel-google-shopping",
+    "type": "library",
+    "description": "Laravel Google Shopping package",
+    "keywords": [
+        "laravel",
+        "google-shopping"
+    ],
+    "version": "0.1",
+    "homepage": "https://github.com/deniztezcan/laravel-google-shopping",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Deniz Tezcan",
+            "email": "howdy@deniztezcan.me"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "DenizTezcan\\LaravelGoogleShopping\\" : "src/" }
+    },
+    "require": {
+        "spatie/array-to-xml": "2.8.*"
+    },
+    "prefer-stable": true
+}
