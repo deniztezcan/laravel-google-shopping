@@ -50,7 +50,7 @@ class Feed{
 		$custom_fields	= NULL
 	){
 		$product = [
-			"link" 				=> $link,
+			"link" 				=> $link . "?utm_source=google&utm_medium=googleshopping&utm_campaign=googlemerchantcenter",
 			"g:id" 				=> $id,
 			"title" 			=> $title,
 			"g:image_link"		=> $image_link,
