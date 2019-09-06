@@ -82,7 +82,7 @@ class Feed{
 
 	public function generate()
 	{
-		$this->xml[] = [
+		$this->xml = [
 		    'rss' 	=> [
 		        '_attributes' 	=> [
 		            'xmlns:g' 		=> 'http://base.google.com/ns/1.0',
@@ -100,6 +100,7 @@ class Feed{
 
 		foreach ($this->products as $product) {
 			$this->xml['rss']['channel']['item_'.$i] = $product;
+			$i++;
 		}
 
 		$xml = ArrayToXml::convert($this->xml, '');
@@ -116,9 +117,7 @@ class Feed{
 
 	public function display()
 	{
-		header("Content-type: text/xml");
-		print $this->generate();
-		exit;
+		return response($this->generate())->header('Content-Type', 'text/xml');
 	}
 
 }
