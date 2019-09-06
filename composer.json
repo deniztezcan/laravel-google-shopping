@@ -19,7 +19,8 @@
         "psr-4": { "DenizTezcan\\LaravelGoogleShopping\\" : "src/" }
     },
     "require": {
-        "spatie/array-to-xml": "2.8.*"
+        "spatie/array-to-xml": "2.8.*",
+        "illuminate/support": "5.4.*|5.5.*|5.6.*|5.7.*|5.8.*|6.0.*"
     },
     "prefer-stable": true
 }
