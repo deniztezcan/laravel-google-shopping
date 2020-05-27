@@ -6,7 +6,7 @@
         "laravel",
         "google-shopping"
     ],
-    "version": "0.1",
+    "version": "0.2.0",
     "homepage": "https://github.com/deniztezcan/laravel-google-shopping",
     "license": "MIT",
     "authors": [
