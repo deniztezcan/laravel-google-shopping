@@ -68,7 +68,7 @@ class Feed{
 		];
 
 		if(!is_null($product_type)){
-			$product['product_type'] = $product_type;
+			$product['g:product_type'] = $product_type;
 		}
 
 		if(!is_null($custom_fields)){
