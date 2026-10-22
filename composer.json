@@ -6,7 +6,7 @@
         "laravel",
         "google-shopping"
     ],
-    "version": "0.2.1",
+    "version": "0.2.3",
     "homepage": "https://github.com/deniztezcan/laravel-google-shopping",
     "license": "MIT",
     "authors": [
@@ -20,7 +20,7 @@
     },
     "require": {
         "spatie/array-to-xml": "2.8.*|3.*.*",
-        "illuminate/support": "5.4.*|5.5.*|5.6.*|5.7.*|5.8.*|6.*.*|7.*.*|8.*.*"
+        "illuminate/support": "5.4.*|5.5.*|5.6.*|5.7.*|5.8.*|6.*.*|7.*.*|8.*.*|^13.0"
     },
     "prefer-stable": true
 }
